@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2fd381a0-68c0-4cc9-9ed0-ef277ee3cad7" solutionId="2fd381a0-68c0-4cc9-9ed0-ef277ee3cad7" resetWebServer="false" sharePointProductVersion="16.0" name="SharePointFinal" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
-  <assemblies>
-    <customAssembly location="Newtonsoft.Json.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\FinalSharepoint\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll" />
-  </assemblies>
-  <projectItems>
-    <projectItemReference itemId="10515794-c2f9-4e38-9fc2-f9caf657db90" />
-  </projectItems>
-</package>
