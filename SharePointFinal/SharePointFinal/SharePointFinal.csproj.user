@@ -3,4 +3,13 @@
   <PropertyGroup>
     <SharePointSiteUrl>http://etgs-uni-cam:8081/</SharePointSiteUrl>
   </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectStore>
+          <SharePointStartupItem>Layouts\SharePointFinal\PermissionInvitation.aspx</SharePointStartupItem>
+        </ProjectStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

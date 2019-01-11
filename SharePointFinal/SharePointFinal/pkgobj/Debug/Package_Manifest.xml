@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2fd381a0-68c0-4cc9-9ed0-ef277ee3cad7" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="Newtonsoft.Json.dll" DeploymentTarget="GlobalAssemblyCache" />
+    <Assembly Location="SharePointFinal.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\SharePointFinal\ContentTypeManagement.aspx" />
+    <TemplateFile Location="Layouts\SharePointFinal\PermissionInvitation.aspx" />
+    <TemplateFile Location="Layouts\SharePointFinal\PermissionManagement.aspx" />
+  </TemplateFiles>
+</Solution>

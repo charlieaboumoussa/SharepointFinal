@@ -50,19 +50,35 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Layouts\SharePointFinal\SharePointFinal.aspx.cs">
-      <DependentUpon>SharePointFinal.aspx</DependentUpon>
+    <Compile Include="Layouts\SharePointFinal\ContentTypeManagement.aspx.cs">
+      <DependentUpon>ContentTypeManagement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Layouts\SharePointFinal\SharePointFinal.aspx.designer.cs">
-      <DependentUpon>SharePointFinal.aspx.cs</DependentUpon>
+    <Compile Include="Layouts\SharePointFinal\ContentTypeManagement.aspx.designer.cs">
+      <DependentUpon>ContentTypeManagement.aspx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\SharePointFinal\PermissionInvitation.aspx.cs">
+      <DependentUpon>PermissionInvitation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SharePointFinal\PermissionInvitation.aspx.designer.cs">
+      <DependentUpon>PermissionInvitation.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\SharePointFinal\PermissionManagement.aspx.cs">
+      <DependentUpon>PermissionManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SharePointFinal\PermissionManagement.aspx.designer.cs">
+      <DependentUpon>PermissionManagement.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PermissionInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -82,7 +98,9 @@
     <Folder Include="Features\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Layouts\SharePointFinal\SharePointFinal.aspx" />
+    <Content Include="Layouts\SharePointFinal\ContentTypeManagement.aspx" />
+    <Content Include="Layouts\SharePointFinal\PermissionInvitation.aspx" />
+    <Content Include="Layouts\SharePointFinal\PermissionManagement.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
